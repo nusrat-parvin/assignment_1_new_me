@@ -1,3 +1,62 @@
 *{
     margin: 0 auto;
+    font-family: 'Work Sans', sans-serif;
 }
+
+/* header/ banner style start */
+.header{
+    
+    width: 100%;
+    height: 808px;
+    background-image: url(/images/banner/banner1.png);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+}
+.title-info{
+    text-align: right;
+    font-weight: 700;
+font-size: 58px;
+}
+.title-description{
+    /* display: block; */
+    margin-top: 24px;
+    margin-bottom: 32px;
+    width: 400px;
+    color: #444343;
+    padding-left: 200px;
+}
+.text-details{
+    padding-top: 216px;
+    text-align: right;
+    /* display: block; */
+    max-width: 40%;
+    padding-left: 500px;
+    
+}
+.btn{
+    width: 160px;
+    height: 64px;
+    background-color: #F15B22;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-weight: 550;
+    font-size: 20px;
+}
+
+/* header/ banner style end */
+
+
+/* main part style start */
+
+
+
+/* main part style start */
+
+
+/* footer style start */
+
+
+
+
+/* footer style end */
