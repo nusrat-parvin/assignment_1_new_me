@@ -1,6 +1,7 @@
 *{
     margin: 0 auto;
     font-family: 'Work Sans', sans-serif;
+    width: 100%;
 }
 
 /* header/ banner style start */
@@ -9,16 +10,16 @@
     width: 100%;
     height: 808px;
     background-image: url(/images/banner/banner1.png);
-    /* background-position: center; */
+    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 .title-info{
     text-align: right;
     font-weight: 700;
-font-size: 58px;
+    font-size: 58px;
 }
 .title-description{
-    /* display: block; */
     margin-top: 24px;
     margin-bottom: 32px;
     width: 400px;
@@ -28,8 +29,7 @@ font-size: 58px;
 .text-details{
     padding-top: 216px;
     text-align: right;
-    /* display: block; */
-    max-width: 40%;
+    width: 40%;
     padding-left: 500px;
     
 }
@@ -75,11 +75,46 @@ img{
     margin-top: 25px;
 }
 .main-list{
-    width: 850px;
+    width: 870px;
     height: 162px;
     margin-top: 10px;
     list-style-type: none;
-    line-height: 26px;
+    line-height: 20px;
+    display: inline;
+}
+
+/* My plan style */
+.my-plan{
+    text-align: center;
+    margin-top: 130px;
+    padding-top: 70px;
+    /* margin-bottom: 90px; */
+}
+hr{
+    margin-top: 100px;
+}
+.plan-img{
+    height: 90px;
+    width: 90px;
+}
+.plan-main-image{
+    display: flex;
+    width: 1141px;
+    height: 300px;
+    justify-content: space-around;
+    margin-left: 230px;
+    margin-right: 230px;
+    margin-bottom: 24px;
+}
+.info-title{
+    text-align:center;
+    font-size: 30px;
+
+
+}
+.info-details{
+    color: #737272;
+    font-size: 20px;
 }
 
 
