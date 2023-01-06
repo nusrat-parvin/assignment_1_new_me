@@ -48,10 +48,42 @@ font-size: 58px;
 
 
 /* main part style start */
+.main-details{
+    display: flex;
+    width: 70%;
+}
+img{
+    width: 560px;
+    height: 700px;
+    margin-top: 131px;
+}
+.main-text{
+    width: 416px;
+    height: 400px;
+    margin-top: 370px;
+
+}
+.main-text-title{
+    font-weight: 700;
+    font-size: 40px;
+}
+.main-description{
+    width: 416px;
+    height: 104px;
+    font-weight: 200;
+    color: #444343;
+    margin-top: 25px;
+}
+.main-list{
+    width: 850px;
+    height: 162px;
+    margin-top: 10px;
+    list-style-type: none;
+    line-height: 26px;
+}
 
 
-
-/* main part style start */
+/* main part style end */
 
 
 /* footer style start */
