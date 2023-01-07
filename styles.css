@@ -79,9 +79,10 @@
     width: 900px;
     height: 162px;
     margin-top: 5px;
+    margin-left: -47px;
     list-style-type: none;
-    line-height: 30px;
-    display: inline;
+    line-height: 60px;
+    font-size: 18px;
 }
 
 /* My plan style */
@@ -99,6 +100,7 @@
 .plan-img{
     height: 90px;
     width: 90px;
+    margin-bottom: 20px;
 }
 .plan-main-image{
     display: flex;
@@ -111,7 +113,7 @@
 }
 .info-title{
     text-align:center;
-    font-size: 30px;
+    font-size: 25px;
 
 
 }
