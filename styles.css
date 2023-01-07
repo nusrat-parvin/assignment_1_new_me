@@ -61,7 +61,7 @@
 .main-text{
     width: 416px;
     height: 400px;
-    margin-top: 370px;
+    margin-top: 360px;
 
 }
 .main-text-title{
@@ -91,9 +91,11 @@
     padding-top: 70px;
     /* margin-bottom: 90px; */
 }
-hr{
-    margin-top: 100px;
+.plan-title{
+    margin-bottom: 60px;
+
 }
+
 .plan-img{
     height: 90px;
     width: 90px;
@@ -118,6 +120,57 @@ hr{
     font-size: 20px;
 }
 /* main part style end */
+
+/* ONE EXTRA MEANINGFUL SECTION. SECTION NAME: CARD, styles starts */
+
+.card{
+    background-color: rgba(138, 176, 100, 0.93);
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.card-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(25, 53, 12);
+
+}
+.card > div{
+    background-color: rgb(187, 215, 156);
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 400px;
+    border: none;
+    border-radius: 15px;
+}
+.box-shadow{
+    box-shadow: 1px 2px 3px rgb(84, 74, 74);
+}
+.box-shadow:hover{
+    box-shadow: 2px 3px 5px rgb(255, 255, 255);
+}
+.img-style{
+    box-sizing: border-box;
+    width: 100%;
+}
+.h1-text{
+    text-shadow: 1px 2px 3px rgb(69, 68, 68);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.para-text{
+    text-align: left;
+    color: #383636;
+    line-height: 23px;   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Section card styling end */
 
 /* gradient-image blend */
 .grad-image{
@@ -171,7 +224,7 @@ hr{
     width: 45px;
     height: 45px;
     margin-right: 105px;
-    margin-top: 70px;
+    margin-top: 190px;
     display: flex;
 }
 
