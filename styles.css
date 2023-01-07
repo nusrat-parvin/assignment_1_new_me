@@ -52,10 +52,11 @@
     display: flex;
     width: 70%;
 }
-img{
+.main-image{
     width: 560px;
     height: 700px;
     margin-top: 131px;
+    margin-right: 100px;
 }
 .main-text{
     width: 416px;
@@ -75,11 +76,11 @@ img{
     margin-top: 25px;
 }
 .main-list{
-    width: 870px;
+    width: 900px;
     height: 162px;
-    margin-top: 10px;
+    margin-top: 5px;
     list-style-type: none;
-    line-height: 20px;
+    line-height: 30px;
     display: inline;
 }
 
@@ -158,46 +159,65 @@ hr{
     height: 577px;
     background-color: #151414;
     display: flex;
-    
-
 }
 
 .footer-image{
     width: 47px;
     height: 46px;
-    /* margin-right: 17px; */
+    margin-right: 17px;
     display: flex;
 }
-.future{
-    /* width: 148px;
-    height: 53px;
-    font-weight: 700;
-    font-size: 45px; */
-    color: white;
+.footer-image-all{
+    width: 45px;
+    height: 45px;
+    margin-right: 105px;
+    margin-top: 70px;
+    display: flex;
 }
-.footer-title{
+
+.future{
     width: 148px;
     height: 53px;
     font-weight: 700;
     font-size: 45px;
+    color: white;
+    margin-left: 200px;
+}
+
+.footer-sec-one{
+    margin-top: 130px;
+    margin-right: 600px;
+}
+.footer-sec-two{
+    margin-top: 130px;
+    margin-right: 600px;
+}
+
+.footer-title{
+    width: 148px;
+    height: 53px;
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 15px;
 
 }
 .footer-description{
     width: 485px;
     height: 78px;
-    font-weight: 400;
+    font-weight: 200;
     font-size: 16px;
     text-align: left;
+    line-height: 25px;
+    margin-bottom: 25px;
 
 }
 .footer-description-one{
-    width: 184px;
+    width: 190px;
     height: 26px;
     font-weight: 400;
     font-size: 16px;
     margin-bottom: 10px;
     text-align: left;
-
 }
 .footer-description-two{
     width: 186px;
@@ -210,24 +230,28 @@ hr{
 
 .title-sub{
     color: aliceblue;
+    margin-bottom: 30px;
 
 }
 
 .input{
     width: 325px;
     height: 64px;
-    border:3px solid rgb(255, 255, 255) ;
+    border:1px solid rgb(255, 255, 255) ;
     border-radius: 7px;
     margin-bottom: 15px;
     background-color: #151414;
+    font-size: 17px;
+    padding-left: 15px;
 
 }
 .button-sub{
     width: 170px;
-    height: 64px;
+    height: 65px;
     color: #F15B22;
     border-radius: 7px;
     background-color: rgb(255, 255, 255);
+    font-size: 20px;
 }
 
 
